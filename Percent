@@ -1,0 +1,31 @@
+package first;
+import java.util.Scanner;
+public class Percent {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the 1st subject Marks");
+		int one = sc.nextInt();
+		
+		System.out.println("Enter the 2nd subject Marks");
+		int sec = sc.nextInt();
+		
+		System.out.println("Enter the 3rd subject Marks");
+		int third = sc.nextInt();
+		
+		System.out.println("Enter the 4st subject Marks");
+		int fourth = sc.nextInt();
+		
+		System.out.println("Enter the 5th subject Marks");
+		int fifth = sc.nextInt();
+		
+		int sum = one + sec + third + fourth + fifth;
+		int per = sum /5;
+		sc.close();
+		
+		System.out.println("Your Percentage is " + per);
+
+	}
+
+}
